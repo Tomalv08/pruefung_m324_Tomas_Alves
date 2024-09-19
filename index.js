@@ -1,8 +1,9 @@
 import chalk from "chalk";
 
-let myUnusedVariable = 5;
+// Nutze const anstatt let, weil sich der Wert nicht ändert
+const myUnusedVariable = 5;
 
-// Absichtlich == anstatt === verwenden
-if (myUnusedVariable == 5) {
+// Nutze === anstatt ==
+if (myUnusedVariable === 5) {
   console.log(chalk.blue("It works"));
 }
