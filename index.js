@@ -7,3 +7,16 @@ const myUnusedVariable = 5;
 if (myUnusedVariable === 5) {
   console.log(chalk.blue('It works'));
 }
+
+function calculate(a, b, operation) {
+    if (operation === 'add') {
+      return a - b; // Absichtlich falsch
+    } else if (operation === 'subtract') {
+      return a + b; // Absichtlich falsch
+    } else {
+      throw new Error('Invalid operation');
+    }
+  }
+  
+  
+  export { calculate };
