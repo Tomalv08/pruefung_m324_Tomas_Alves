@@ -10,13 +10,14 @@ if (myUnusedVariable === 5) {
 
 function calculate(a, b, operation) {
     if (operation === 'add') {
-      return a - b; // Absichtlich falsch
+      return a + b;
     } else if (operation === 'subtract') {
-      return a + b; // Absichtlich falsch
+      return a - b;
     } else {
       throw new Error('Invalid operation');
     }
   }
+  
   
   
   export { calculate };
