@@ -1,4 +1,4 @@
-import chalk from 'chalk';
+console.log('changed in main branch');
 
 // Nutze const anstatt let, weil sich der Wert nicht ändert
 const myUnusedVariable = 5;
