@@ -4,13 +4,6 @@ import chalk from 'chalk';
 const myUnusedVariable = 5;
 
 // Nutze === anstatt ==
-if (
-  myUnusedVariable ===
-  5
-) {
-  console.log(
-    chalk.blue(
-      'It works',
-    ),
-  );
+if (myUnusedVariable === 5) {
+  console.log(chalk.blue('It works'));
 }
